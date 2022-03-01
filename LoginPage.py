@@ -12,7 +12,7 @@ class Login_page:
 
         #Background Image
 
-        self.bg=ImageTk.PhotoImage(file=r"Background_image.jpg")
+        self.bg=ImageTk.PhotoImage(file=r"Background_image.jpg")    #copy path image from your system
 
         label_bg = Label(self.root,image=self.bg)
         label_bg.place(x=0,y=0,relwidth=1,relheight=1)
@@ -22,7 +22,7 @@ class Login_page:
 
         #Logo
 
-        img1=Image.open(r"LoginPage_Logo.jpg")
+        img1=Image.open(r"LoginPage_Logo.jpg")  #copy path image from your system
         img1=img1.resize((100,100),Image.ANTIALIAS)
         self.photoimage1=ImageTk.PhotoImage(img1)
         label_img1=Label(image=self.photoimage1,bg="black",borderwidth=0)
@@ -49,7 +49,7 @@ class Login_page:
 
         #Icon / button / Username
 
-        img2=Image.open(r"Username_image.png")
+        img2=Image.open(r"Username_image.png")  #copy path image from your system
         img2=img2.resize((25,25),Image.ANTIALIAS)
         self.photoimage2=ImageTk.PhotoImage(img2)
         label_img2=Label(image=self.photoimage2,bg="black",borderwidth=0)
@@ -57,7 +57,7 @@ class Login_page:
 
         #Password
 
-        img3=Image.open(r"Password_image.png")
+        img3=Image.open(r"Password_image.png")  #copy path image from your system
         img3=img3.resize((25,25),Image.ANTIALIAS)
         self.photoimage3 =ImageTk.PhotoImage(img3)
         label_img3=Label(image=self.photoimage3,bg="black",borderwidth=0)

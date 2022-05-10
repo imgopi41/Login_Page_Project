@@ -1,17 +1,41 @@
 # Login_Page_Project
+This is Login page project implemented by using Python classes, functions & if,if-else statements.
 
-Loginpage:
-This is Login page project created by using Python
-In this project a login registeration of a user is done by few python classes and variables.
-Few Tkinter and PIL(python image library) were imported in this project.
-Modification and alignments for logo,background image and buttons are created.
-Project also involves in if,if-else conditions and File-Handling,Exception-Handling.
+**I. Description**
 
-Loginpage_invalid_output:
-when user do not specify username and password or specifes only username in some conditions only password in such cases invalid notification is shown to user.
+Login page welcomes the user, if username and password are correct, if not invalid message is displayed. 
+Project is implemented by using few tkinter tools and this is complete UI Project.
 
-Loginpage_output:
-when user gives correct username and password it gives Welcome notification to user.
+**II. Technology Stack**
 
-Loginpage:Background image:Logo:Username image:Password image:
-I have uploaded all the images which are used in this project.
+Language: Python(3.6)
+
+IDE used: Pycharm
+
+**III. Tools**
+
+1. Tkinter: is used to represent the all functions & built modules in the tkinter library.
+2. ttk: module that is used to style tkinter widgets.
+3. PIL: Python Imaging Library (PIL) provides python interpreter with image editing capabilites.
+4. ImageTk: module that supports photoimage objects from PIL images.
+5. MessageBox: widgets is used to display the message box.
+
+**IV. Workflow**
+
+1. This is simple Login page project, user has to give already registered username & password to login the page.
+2. If username or password are incorrect or not provided invalid message is displayed.
+3. Few Tkinter and PIL libraries were imported in this project.
+4. Class is created in the name of Login page, inside a class init method is implemented which carries title & geometry of the UI.
+5. Inside a class Modifications & alignments for logo, background image & buttons were implemented.
+
+**V. Applications & Future enhancements**
+
+This project is used in Pc & Mobile applications and further implemented with interactive UI.
+
+
+
+
+
+
+
+

@@ -28,7 +28,12 @@ IDE used: Pycharm(3.6)
 4. Class is created in the name of Login page, inside a class init method is implemented which carries title & geometry of the UI.
 5. Inside a class Modifications & alignments for logo, background image & buttons were implemented.
 
-**V. Applications & Future enhancements**
+**V.Demo**
+
+![Loginpage_output](https://user-images.githubusercontent.com/99798157/173581212-a8cd431e-9ec8-40a1-a4b2-ec0f6a6bf711.JPG)
+
+
+**VI. Applications & Future enhancements**
 
 This project is used in Pc & Mobile applications and further implemented with interactive UI.
 
